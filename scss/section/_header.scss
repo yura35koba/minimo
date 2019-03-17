@@ -1,0 +1,40 @@
+header .navbar-toggler {
+	outline: none
+}
+
+
+
+header .bg-light {
+	background-color: #ffffff !important;
+}
+
+header .navbar-brand {
+	font-size: 30px;
+	font-family: 'Inconsolata', monospace;
+	color: #000000 !important;
+	text-transform: uppercase;
+}
+
+header .nav-item {
+	text-transform: uppercase;
+	margin-left: 50px;
+
+}
+
+header .nav-item a::after {
+	content: "";
+	display: block;
+	width: 100%;
+	background-color: #cccccc;
+	height: 1px;
+	transform: scale(0);
+	transition: all .3s;
+}
+
+header .nav-item a:hover::after {
+	transform: scale(1);
+}
+
+.marg {
+	margin-bottom: 100px;
+}
