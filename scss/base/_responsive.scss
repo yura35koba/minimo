@@ -3,9 +3,6 @@
   .post-container{
     padding-bottom: 50px !important;
   }
-  .marg{
-    margin-bottom: 50px !important;
-  }
 }
 @media only screen and (max-width: 575px) {
   .footer-left{
@@ -41,13 +38,13 @@
     margin-top: 12px !important;
     margin-bottom: 20px !important;
   }
+  .marg{
+    margin-bottom: 50px !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   .grid-post .card{
     margin-bottom: 50px !important;
-  }
-  .marg{
-    margin-bottom: 75px !important;
   }
 }
 
