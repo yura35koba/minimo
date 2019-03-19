@@ -1,11 +1,58 @@
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media only screen and (max-width: 576px) {
+  .post-container{
+    padding-bottom: 50px !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .footer-left{
+    margin-bottom: 15px;
+  }
+  .singl-post .post-text{
+    margin-bottom: 30px;
+  }
+  .singl-post .post-title{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  .singl-post .post-text{
+    font-size: 12px;
+    line-height: 1.4rem;
+    letter-spacing: 0.5px;
+  }
+  .form-post{
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .lab-post_form{
+    font-size: 20px !important;
+    margin-bottom: 50px !important;
+  }
+  .bg-light{
+    margin-bottom: 30px;
+  }
+  .post-title{
+    margin-bottom: 25px !important;
+  }
+  .grid-post .title-post{
+    margin-top: 12px !important;
+    margin-bottom: 20px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .grid-post .card{
+    margin-bottom: 50px;
+  }
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {}
+@media only screen and (max-width: 991px) {
+
+  header .nav-item{
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (max-width: 992px) {}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
+@media only screen and (max-width: 1200px) {}

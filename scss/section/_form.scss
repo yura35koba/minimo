@@ -1,0 +1,57 @@
+.form-post{
+  display: block;
+  width: 100%;
+  padding: 70px 0;
+  background-color: #f0f0f0;
+  margin-bottom: 100px;
+}
+.lab-post_form{
+  font-family:'Playfair Display Regular', sans-serif;
+  font-size: 30px;
+  color: #333333;
+  margin-bottom: 80px;
+}
+.post-form{
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-radius: 0px;
+}
+.post-form:focus{
+  box-shadow: none;
+}
+.post-form:active{
+  background-color: transparent;
+  box-shadow: none;
+}
+.form-center{
+  display: block;
+
+}
+.form-iput{
+  position: relative;
+}
+.form-input .btn{
+  position: absolute;
+  right: 0;
+  top: -5px;
+  font-size: 25px;
+}
+footer{
+  background-color: #f0f0f0;
+  padding-top: 40px;
+  padding-bottom: 45px;
+  color: #000000;
+
+  .footer-left a{
+    color: #000;
+    margin-right: 20px;
+  }
+  .footer-right a{
+    coloro: #626262;
+    margin-left: 20px;
+  }
+  .footer-right a:hover{
+    text-decoration: none;
+  }
+}
