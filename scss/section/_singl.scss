@@ -1,0 +1,28 @@
+.header-img {
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+.sing-photo{
+	margin-bottom: 60px;
+}
+p.text-italic{
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	letter-spacing: .5px;
+}
+.share{
+	font-family: "Ubuntu Light", sans-serif;
+	font-size: 13px;
+	color: #bfb9ad;
+	margin-right: 15px;
+	text-transform: uppercase;
+}
+.link-share{
+	margin-right: 10px;
+	&:last-child{
+		margin-right: 0;
+	}
+}
