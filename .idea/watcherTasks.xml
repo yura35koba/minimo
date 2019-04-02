@@ -5,7 +5,7 @@
       <option name="arguments" value="--style compressed --no-cache --update $FileName$:$FileParentDir$/css/$FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="exitCodeBehavior" value="NEVER" />
       <option name="fileExtension" value="scss" />
       <option name="immediateSync" value="true" />
       <option name="name" value="SCSS" />
@@ -15,6 +15,32 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="sass" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-color$FileName$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="NEVER" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Less" />
+      <option name="output" value="$FileDir$" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="" />
+            <option name="name" value="" />
+            <option name="regExp" value="$MESSAGE$\Q in \E$FILE_PATH$\Q on line \E$LINE$\Q, column \E$COLUMN$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="lessc" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
